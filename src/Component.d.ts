@@ -21,6 +21,7 @@ export class Component<C> {
   clone(): this;
   reset(): void;
   dispose(): void;
+  getName(): string
 }
 
 export interface ComponentConstructor<C extends Component<any>> {
